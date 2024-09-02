@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+</style>
+<body>
+    <div class="container">
+        <div class="musicPlayer">
+
+            <nav>
+                <div class="circle">
+                    <i class='bx bx-chevron-left'></i>
+                </div>
+                <div class="circle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+            <div class="imageWrapper">
+                <img src="Media/sD1EDhA8vXiFPfvgY5JBo9Ym1ip.jpg" alt="">
+            </div>
+            <h1>Kisi Se Tum Pyar Karo</h1>
+            <p>Kumar Sanu</p>
+            <audio id="song1">
+                <source src="Media/Kisise Tum Pyar Karo Andaaz 2003 320 Kbps.mp3" type="audio/mpeg" id="song1">
+                
+            </audio>
+            <audio id="song2">
+                <source src="Media/Likhe Jo Khat Tujhe Kanyadaan 320 Kbps.mp3" type="audio/mpeg" id="song2">  
+            </audio>
+            <audio id="song3">
+                <source src="Media/O Mere Dil Ke Chain Mere Jeevan Saathi 320 Kbps.mp3" type="audio/mpeg" id="song3">
+            </audio>
+            <audio id="song4">
+                <source src="Media/Barsaat Ke Mausam Mein Naajayaz 320 Kbps.mp3" type="audio/mpeg" id="song4">   
+            </audio>
+            <audio id="song5">
+                
+                <source src="Media/Tere Chehre Se Nazar Nahin Kabhi Kabhie 320 Kbps.mp3" type="audio/mpeg" id="song5">
+                
+            </audio>
+            <audio id="song6">
+                <source src="Media/Tum Dil Ki Dhadkan Mein Kumar Sanu 320 Kbps.mp3" type="audio/mpeg" id="song6">
+            </audio>
+            <input type="range" value="0" id="progressBar">
+            <div class="controls">
+                <div class="keys">
+                    <i class='bx bx-skip-next bx-rotate-180' id="previous"></i>
+                </div>
+                <div class="keys">
+                    <i class='bx bx-play' id="play"></i>
+                </div>
+                <div class="keys">
+                    <i class='bx bx-skip-next' id="next"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
